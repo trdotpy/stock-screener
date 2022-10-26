@@ -20,11 +20,6 @@ export default function SearchBar() {
     }
   }
 
-  const clearSearch = () => {
-    setSearch('')
-    setBestMatches([])
-  }
-
   return (
     //
     <div className="relative z-50 my-2 flex w-96 items-center">
@@ -32,7 +27,7 @@ export default function SearchBar() {
         type="text"
         value={search}
         placeholder="Search ticker symbols"
-        className="w-full px-4 py-2 focus:outline-none bg-gray-light"
+        className="w-full bg-gray-light px-4 py-2 focus:outline-none"
         onChange={(event) => setSearch(event.target.value)}
         onKeyPress={(event) => {
           if (event.key === 'Enter') {

@@ -83,17 +83,17 @@ export default function Chart() {
         >
           <defs>
             <linearGradient id="chartColor" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#7F7EFF" stopOpacity={0.8} />
-              <stop offset="95%" stopColor="##7F7EFF" stopOpacity={0} />
+              <stop offset="5%" stopColor="#084887" stopOpacity={0.8} />
+              <stop offset="95%" stopColor="#084887" stopOpacity={0} />
             </linearGradient>
           </defs>
 
           <Area
             type="monotone"
             dataKey="value"
-            stroke="#F7F7F7"
+            stroke="#084887"
             fillOpacity={1}
-            strokeWidth={0.5}
+            strokeWidth={0.8}
             fill="url(#chartColor)"
           />
           <Tooltip />
