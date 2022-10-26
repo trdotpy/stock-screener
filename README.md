@@ -3,7 +3,7 @@ Stock Market Screener
   <br>
 </h1>
 <h4 align='center'>
-US stock market screener/terminal made with React, TailwindCSS & Finnhub API.
+US stock market screener/terminal made with React, TailwindCSS & Finnhub API
 
 <img src="./public/stock-screener-ss.png">
 
@@ -15,11 +15,12 @@ US stock market screener/terminal made with React, TailwindCSS & Finnhub API.
 
 # Technology
 
-This project was made with the following open source packages:
+<img src='https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB'>
+<img src='https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white'>
+<img src='https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white'>
+<img src='https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white'>
 
-- React
-- TailwindCSS
-- Finnhub API
+<br>
 
 # How To Use
 
@@ -43,5 +44,5 @@ $ npm start
 
 # Contact
 
-[Github](https://github.com/trdotpy/) |
-[Email](mailto:tanvi.rahman@outlook.com)
+[<img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'>](https://github.com/trdotpy/)
+[<img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'>](mailto:tanvi.rahman@outlook.com)
