@@ -5,7 +5,7 @@ Stock Market Screener
 <h4 align='center'>
 US stock market screener/terminal made with React, TailwindCSS & Finnhub API
 
-<img src="./public/stock-screener-ss.png">
+<img src='https://res.cloudinary.com/drij60fru/image/upload/v1666981111/market-dashboard-ss_wgwkgw.png'>
 
 <p align="center">
   <a href="#technology-used">Technology</a> |
