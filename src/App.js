@@ -4,7 +4,7 @@ import Dashboard from './components/Dashboard'
 import StockContext from './context/StockContext'
 
 function App() {
-  const [stockSymbol, setStockSymbol] = useState('AMZN')
+  const [stockSymbol, setStockSymbol] = useState('TSLA')
   return (
     <StockContext.Provider value={{ stockSymbol, setStockSymbol }}>
       <Dashboard />
