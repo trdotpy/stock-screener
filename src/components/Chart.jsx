@@ -20,7 +20,7 @@ import {
 
 export default function Chart() {
   const [data, setData] = useState([])
-  const [filter, setFilter] = useState('1W')
+  const [filter, setFilter] = useState('1Y')
   const { stockSymbol } = useContext(StockContext)
 
   const formatData = (data) => {
